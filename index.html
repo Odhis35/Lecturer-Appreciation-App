@@ -6,11 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
+    <!--<div>
         <input id="input_el" type="text" name = "Yourname">
         <button onclick="myMessage()">Generate Message</button>
         <p id="message_el">Here is my message</p>
         <script src="app.js"></script>
-    </div>
+    </div>-->
+    <h1>Conversation</h1>
+    <div id="chatbox"></div>
+    <input type="text" id="input-1" placeholder="User One">
+    <button onclick="sendMessage('User1')">Send</button>
+    <br><br>
+    <input type="text" id="input-2" placeholder="User Two">
+    <button onclick="sendMessage('User2')">Send</button>
+
 </body>
 </html>
