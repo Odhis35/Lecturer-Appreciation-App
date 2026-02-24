@@ -17,14 +17,16 @@ body{
     padding: 8px;
     border-radius: 8px;
 }
-.user1{
+.User1{
     background-color: #d1e7ff;
     text-align: left;
+    color: red;
 }
 
-.user2{
+.User2{
     background-color: #d4edda;
     text-align: right;
+    color: darkgoldenrod;
 }
 input{
     width: 70%;

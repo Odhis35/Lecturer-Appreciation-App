@@ -8,7 +8,7 @@ function sendMessage(user){
     let inputField
     if(user === 'User1'){
         inputField = document.getElementById("input-1");
-    } else inputField = document.getElementById("input-2");
+    } else {inputField = document.getElementById("input-2");
 }
 
 let messageText = inputField.value;
@@ -23,3 +23,4 @@ document.getElementById("chatbox").appendChild(message)
 
 //clear inputfield
 inputField.value = " ";
+}
